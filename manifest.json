@@ -1,0 +1,14 @@
+{
+  "name": "Japan Post Bank Login",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "",
+
+  "content_scripts": [
+    {
+      "matches": ["https://direct.jp-bank.japanpost.jp/tp1web/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
