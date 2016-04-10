@@ -2,7 +2,13 @@
   "name": "Japan Post Bank Login",
   "manifest_version": 2,
   "version": "1.0",
-  "description": "",
+  "description": "Set your okyakusama bangou of Japan Post Bank",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "options_page": "options.html",
 
   "content_scripts": [
     {
